@@ -9,13 +9,10 @@
 <body>
     <!-- PHP Syntax -->
 <?php
-    $x = 6;
-
-    do{
-        echo "The number is: $x <br>";
-        $x++;
+    // PHP FOR LOOP
+    for($age = 0; $age <= 10; $age++){
+        echo "The number is: $age <br>";
     }
-    while($x <= 5);
 ?>
 
 </body>
