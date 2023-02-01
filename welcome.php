@@ -9,62 +9,21 @@
 <body>
     <!-- PHP Syntax -->
 <?php
-    echo '<br>';
-    // The IF statement executes only IF the condition returns true
-    $time = date("H");
+    $number = 1;
 
-    if($time < "20"){
-        echo "Good Afternoon y'all!";
-    }
-    echo '<br>';
-    // IF ELSE condition
-    $time_two = date("H");
-
-    if($time_two > "20"){
-        echo "Have a good day!";
-    }
-    else{
-        echo "Have a good night!";
+    // PHP While Loop-> Executes as long as condition is true
+    while($number <= 5){
+        echo "The number is: $number <br>";
+        $number = $number + 1; //number++
     }
 
+    $age = 0;
 
-    $time_three = date("H");
-
-    if ($time_three < "10"){
-        echo "Good Morning Everyone";
+    while($age <= 100){
+        echo "You are $age years old <br>";
+        $age = $age + 10;
     }
-
-    elseif($time_three < "20"){
-        echo "Good day Everyone";
-    }
-
-    else{
-        echo "Good night Everyone";
-    }
-    echo '<br>';
-    // Switch Statement
-
-    $favColor = "green";
-
-    switch($favColor){
-        case "green":
-            echo "Oscar's Favourite color is green";
-            break;
-        case "blue":
-            echo "Oscar's Favourite color is blue";
-            break;
-        case "red":
-            echo "Oscar's Favourite color is red";
-            break;
-        default:
-        echo "Your color doesn't exist!";
-    }
-
-
-
-
-
-
+    
 ?>
 
 </body>
