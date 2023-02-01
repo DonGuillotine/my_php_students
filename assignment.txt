@@ -1,0 +1,6 @@
+Create examples of:
+
+-global scope Varibles
+-local scope Varibles
+-GLOBAL keyword
+-static keyword
