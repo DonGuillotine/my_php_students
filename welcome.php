@@ -9,21 +9,13 @@
 <body>
     <!-- PHP Syntax -->
 <?php
-    $number = 1;
+    $x = 6;
 
-    // PHP While Loop-> Executes as long as condition is true
-    while($number <= 5){
-        echo "The number is: $number <br>";
-        $number = $number + 1; //number++
+    do{
+        echo "The number is: $x <br>";
+        $x++;
     }
-
-    $age = 0;
-
-    while($age <= 100){
-        echo "You are $age years old <br>";
-        $age = $age + 10;
-    }
-    
+    while($x <= 5);
 ?>
 
 </body>
