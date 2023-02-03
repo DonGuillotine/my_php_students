@@ -9,20 +9,23 @@
 <body>
     <!-- PHP Syntax -->
 <?php
-    // PHP FOREACH LOOP
-  $colors = array("red", "green", "blue", "yellow");
+// Using the break keyworrd to terminate loops
 
-  foreach($colors as $value){
-    echo "$value <br>";
-  }
-  echo '<br>';
-  
-  // Outputing both keys and values of the student array
-  $students = array("Oscar"=>"Football", "Kike"=>"Music");
+    for($age = 0; $age < 10; $age++){
+        if($age == 4){
+            break;
+        }
 
-  foreach($students as $x => $value){
-    echo "$x = $value <br>";
-  }
+        echo "You are $age years old <br>";
+    }
+// The continue keyword stops the iteration of the loop if a condition occurs and continues with the next iteration of the loop
+
+    for($x = 0; $x < 10; $x++){
+        if($x == 4){
+            continue;
+        }
+        echo "You are $x th place <br>";
+    }
 ?>
 
 </body>
