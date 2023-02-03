@@ -25,8 +25,8 @@
         <br/>
         <br />
     </td>
-  </tr>
-  <tr align="center">
+      <td align="center">
     <a href="https://app.daily.dev/DonGuillotine"><img src="https://api.daily.dev/devcards/b4681b96ff8545eb87624c936831470a.png?r=dfs" width="400" alt="Donald Nwokoro's Dev Card"/></a>
+  </td>
   </tr>
 </table>
