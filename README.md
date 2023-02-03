@@ -1,7 +1,7 @@
 ![Studio_Project](https://user-images.githubusercontent.com/89584431/216503042-d6ec35f1-be45-470f-90ec-38ebcb76f09d.gif)
 <table>
   <tr>
-    <td width="50%" align="center">
+    <td width="50%">
       <a href="https://github.com/DonGuillotine">
         <img src="https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white" alt="My Portfolio"/></a>
        <h3>As a backend developer, I am passionate about creating efficient and scalable systems that bring order to chaos. Here are some fun facts about me:</h3>
@@ -24,7 +24,9 @@
 <p>Stay up-to-date with my latest projects by following me on GitHub.</p>
         <br/>
         <br />
-       <a href="https://app.daily.dev/DonGuillotine"><img src="https://api.daily.dev/devcards/b4681b96ff8545eb87624c936831470a.png?r=dfs" width="400" alt="Donald Nwokoro's Dev Card"/></a>
     </td>
+  </tr>
+  <tr align="center">
+    <a href="https://app.daily.dev/DonGuillotine"><img src="https://api.daily.dev/devcards/b4681b96ff8545eb87624c936831470a.png?r=dfs" width="400" alt="Donald Nwokoro's Dev Card"/></a>
   </tr>
 </table>
