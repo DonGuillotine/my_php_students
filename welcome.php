@@ -1,32 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <!-- PHP Syntax -->
-<?php
-// Using the break keyworrd to terminate loops
+<?php 
+declare(strict_types=1);
+// PHP FUNCTIONS
 
-    for($age = 0; $age < 10; $age++){
-        if($age == 4){
-            break;
-        }
+function writeMsg(){
+    echo "Hello World <br>";
+}
 
-        echo "You are $age years old <br>";
-    }
-// The continue keyword stops the iteration of the loop if a condition occurs and continues with the next iteration of the loop
+writeMsg();
 
-    for($x = 0; $x < 10; $x++){
-        if($x == 4){
-            continue;
-        }
-        echo "You are $x th place <br>";
-    }
+function familyName($first_name, $year){
+    echo "$first_name Okoye was born in $year <br>";
+}
+
+familyName("Janai", 2004);
+familyName("Jarel", 1999);
+familyName("Jonadab", 1982);
+familyName("Jesse", 1716);
+familyName("John", 2003);
+
+// Strict is not enabled
+function addNumbers(int $a, int $b){
+    return $a + $b;
+}
+
+echo addNumbers(5, 6);
+
+//  Default Function Argument
+
+function setHeight(int $minHeight = 50){
+    echo " The Height is : $minHeight<br>";
+}
+
+
+setHeight(340);
+setHeight();
+setHeight(127);
+
+
+// To let a function return a value, use the return statement
+function sum(int $x, int $y){
+    $z = $x + $y;
+    return $z;
+}
+
+echo "5 + 10= " .sum(5, 10) . "<br>";
+echo "7 + 13= " .sum(7, 13) . "<br>";
+echo "2 + 4= " .sum(2, 4) . "<br>";
+
+// Declaring a type for the function return
+function concatNumbers(float $a, float $b) : float{
+    return (int)($a + $b);
+}
+
+echo concatNumbers(1.2, 5.6) . "<br>";
+
+// Passing Arguments by Reference
+function add_five(&$value){
+    $value += 5;
+}
+
+$num = 2;
+add_five($num);
+echo $num;
 ?>
-
-</body>
-</html>
